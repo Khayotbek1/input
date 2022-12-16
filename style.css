@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    width: 550px;
+    height: 200px;
+    border: 2px double #fff;
+    box-shadow: 0px 8px 8px rgba(221, 42, 42, 0.568);
+    border-radius: 5px;
+  }
+  label {
+    display: flex;
+    align-items: center;
+    user-select: none;
+  }
+  label,input::before {
+    cursor: pointer;
+  }
+  input {
+    margin-right: 10px;
+    appearance: none;
+  }
+  input::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    width: 30px;
+    height: 30px;
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    border-radius: 50%;
+    color: white;
+  }
+  input:hover::before {
+    background-color: #fff;
+  }
+  input:checked::before {
+    background-color: #4267b2;
+    content: "\f09a";
+  }
+  .facebook:hover {
+    color: #4267b2;
+  }
+  .icon-insta:checked::before {
+    background-color: #ab0c41;
+    content: "\f16d";
+  }
+  .instagram:hover {
+    color: #e1306c;
+  }
+  .Telegram:checked::before {
+    background-color: #2aabee;
+    content: "\f2c6";
+  }
+  .telegram:hover {
+    color: #2aabee;
+  }
+  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
