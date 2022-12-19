@@ -1,0 +1,28 @@
+:root {
+    --primary-light-color: #F67E7E;
+    --primary-midnight-color:  #014E56;
+    --primary-white: #fff;
+    --secondary-black: #000;
+    --secondary-rapture-blue: #79c8c7;
+    --secondary-polight-blue: #2c6269;
+    --secondary-deep-green: #004047;
+    --secondary-sacramento-green: #012f34;
+    --secondary-dark-green: #002529;
+
+    --main-font-1: 'Livvic', sans-serif;
+    --main-font-size-1: 1.8rem;
+    --main-line-height-1: 1.56;
+    --main-font-weight: 700;
+
+    --main-font-size-2: 1.5rem;
+    --main-line-height-2: 1.67;
+
+    --h1-large-size: 10rem;
+    --h1-small-line: 0.88;
+
+    --h2-font-size: 4.8rem;
+    --h2-line-height: 1.38;
+
+    --h3-font-size: 1.8rem;
+    --h3-line-height: 1.6;
+}
